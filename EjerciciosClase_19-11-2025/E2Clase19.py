@@ -10,6 +10,8 @@ Figura para n=9:
   * * *
  *  *  *
 *   *   *
+
+NO VA BIEN TODAVÍA
 """
 try:
     altura = int(input("Introduce la altura del triángulo: "))
