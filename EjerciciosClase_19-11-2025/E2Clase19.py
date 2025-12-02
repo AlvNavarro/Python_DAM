@@ -17,8 +17,6 @@ try:
     altura = int(input("Introduce la altura del triángulo: "))
     if altura <= 0:
         raise ValueError
-    if altura % 2 == 0:
-        raise ValueError
 except ValueError:
     print("Error: Debes introducir un número entero positivo e impar.")
 else:
